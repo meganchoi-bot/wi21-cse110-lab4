@@ -14,11 +14,11 @@
 12. error because the code tries to reassign `finalPrice`, which is a const variable, inside the for-loop
 ### Data Types ###
 13. 
-    A. `student.name`
-    B. `student["Grad Year"]`
-    C. `student.greeting()`
-    D. `student["Favorite Teacher"].name`
-    E. `student.courseLoad[1]`
+    A. `student.name`  
+    B. `student["Grad Year"]`  
+    C. `student.greeting()`  
+    D. `student["Favorite Teacher"].name`  
+    E. `student.courseLoad[1]`  
 ### Basic Operators & Type Conversion ###
 14. Arithmetic  
     A. '32', 2 turns into a string and they are appended  
@@ -39,3 +39,5 @@
 16. `==` is for non-strict checks with type conversion, `===` is for strict equality checks without type conversion (it will return false if they are not the same price)
 ### Conditionals ###
 17.  'How are you' gets printed. The first if is evaluated to false because 2 != 1. The else if is true because 2 is truthy and 'How are you' is printed.
+### Functions ###
+19. [6, 8, 10] The for-loop goes through each number in the array and calls the doSomething function on the number. Then the function(x) is called on the number and pushed to the new array.

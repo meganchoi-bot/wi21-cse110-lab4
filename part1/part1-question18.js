@@ -1,3 +1,11 @@
+let statistics = {
+    redCars: 21,
+    blueCars: 45,
+    greenCars: 12,
+    raceCars: 5,
+    blackCars: 40,
+    rareCars: 2
+};
 
 // Print the value of the property if the property start with 'r' or the value is odd
 for (prop in statistics) {

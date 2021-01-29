@@ -20,22 +20,22 @@
     D. `student["Favorite Teacher"].name`
     E. `student.courseLoad[1]`
 ### Basic Operators & Type Conversion ###
-14. Arithmetic
-    \nA. '32', 2 turns into a string and they are appended
-    B. 1, '3' is read as a number and 3-2=1
-    C. 3, null is equal to 0
-    D. '3null', null turns into a string
-    E. 4, true is equal to 1
-    F. 0, false and null both equal 0
-    G. '3undefined', undefined turns into a string and they are appended
-    H. NaN, undefined becomes NaN
-15. Comparison
-    A. true, '2' is converted to a number
-    B. false, '2' is lexocographically greater than '1'
-    C. true, '2' is converted to a number
-    D. false, the variables are different types (strict equality)
-    E. false, the variables are different types (strict equality)
-    F. true, 
+14. Arithmetic  
+    A. '32', 2 turns into a string and they are appended  
+    B. 1, '3' is read as a number and 3-2=1  
+    C. 3, null is equal to 0  
+    D. '3null', null turns into a string  
+    E. 4, true is equal to 1  
+    F. 0, false and null both equal 0  
+    G. '3undefined', undefined turns into a string and they are appended  
+    H. NaN, undefined becomes NaN  
+15. Comparison  
+    A. true, '2' is converted to a number  
+    B. false, '2' is lexocographically greater than '1'  
+    C. true, '2' is converted to a number  
+    D. false, the variables are different types (strict equality)  
+    E. false, the variables are different types (strict equality)   
+    F. true, Boolean(2) is true because 2 is truthy
 16. `==` is for non-strict checks with type conversion, `===` is for strict equality checks without type conversion (it will return false if they are not the same price)
 ### Conditionals ###
 17.  'How are you' gets printed. The first if is evaluated to false because 2 != 1. The else if is true because 2 is truthy and 'How are you' is printed.

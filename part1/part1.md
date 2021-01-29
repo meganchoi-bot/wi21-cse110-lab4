@@ -41,3 +41,5 @@
 17.  'How are you' gets printed. The first if is evaluated to false because 2 != 1. The else if is true because 2 is truthy and 'How are you' is printed.
 ### Functions ###
 19. [6, 8, 10] The for-loop goes through each number in the array and calls the doSomething function on the number. Then the function(x) is called on the number and pushed to the new array.
+### setInterval(), setTimeout(), clearTimeout() ###
+21. 1 4 undefined 3 2

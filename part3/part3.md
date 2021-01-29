@@ -1,0 +1,1 @@
+The function was combining two strings instead of adding them as numbers. I would convert `num1` and `num2` to numbers before adding them.

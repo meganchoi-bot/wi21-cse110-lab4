@@ -1,2 +1,2 @@
-Megan Choi
+Megan Choi  
 mlc025@ucsd.edu

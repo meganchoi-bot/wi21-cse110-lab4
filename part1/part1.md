@@ -21,7 +21,7 @@
     E. `student.courseLoad[1]`
 ### Basic Operators & Type Conversion ###
 14. Arithmetic
-    A. '32', 2 turns into a string and they are appended
+    \nA. '32', 2 turns into a string and they are appended
     B. 1, '3' is read as a number and 3-2=1
     C. 3, null is equal to 0
     D. '3null', null turns into a string
